@@ -45,22 +45,22 @@ const TopMovie = () => {
 								Home
 							</Typography>
 						</Link>
-						<Link to="/movies">
+						<Link to="/">
 							<Typography className="link" href="#">
 								Movies
 							</Typography>
 						</Link>
-						<Link to="/topMovies">
+						<Link to="/">
 							<Typography className="link" href="#">
 								Top
 							</Typography>
 						</Link>
-						<Link to="/popularMovies">
+						<Link to="/">
 							<Typography className="link" href="#">
 								Popular
 							</Typography>
 						</Link>
-						<Link to="/topTvs">
+						<Link to="/">
 							<Typography className="link" href="#">
 								Tvs
 							</Typography>
