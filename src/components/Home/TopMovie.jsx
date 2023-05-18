@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import { Box } from "@mui/system";
 import { ThemeProvider } from "@mui/material";
-import topMovieImage from "../../imgs/black-panther.jpg";
+import topMovieImage from "../../../public/avatar-2-the-way-of-water.jpg";
 import myTheme from "../Theme/Theme";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
