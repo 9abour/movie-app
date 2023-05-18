@@ -11,7 +11,7 @@ import { getTopMovie } from "../../rtk/slices/TopMovieSlice";
 
 const TopMovie = () => {
 	const topMovie = useSelector(state => state.topMovie);
-	const { id, title, imDbRating, year, plot, image } = topMovie;
+	const { id, title, imDbRating, year, plot } = topMovie;
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(getTopMovie());
