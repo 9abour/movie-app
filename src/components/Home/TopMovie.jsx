@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import { Box } from "@mui/system";
 import { ThemeProvider } from "@mui/material";
-import topMovieImage from "../../imgs/black-panther.jpg";
+import topMovieImage from "../../../public/avatar-2-the-way-of-water.jpg";
 import myTheme from "../Theme/Theme";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -155,7 +155,7 @@ const TopMovie = () => {
 						}}
 					></Box>
 					<img
-						src="https://www4.lunapic.com/do-not-link-here-use-hosting-instead/168438724118233939?48045178836"
+						src={topMovieImage}
 						style={{ width: "100%", height: "560px", objectFit: "cover" }}
 					/>
 				</Paper>
