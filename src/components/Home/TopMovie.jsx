@@ -155,7 +155,9 @@ const TopMovie = () => {
 						}}
 					></Box>
 					<img
-						src={image}
+						src={
+							"https://www4.lunapic.com/do-not-link-here-use-hosting-instead/168438724118233939?48045178836"
+						}
 						style={{ width: "100%", height: "560px", objectFit: "cover" }}
 					/>
 				</Paper>
