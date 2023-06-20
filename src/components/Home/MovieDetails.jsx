@@ -312,7 +312,10 @@ const MovieDetails = () => {
 												{actorList.map(item => {
 													return (
 														<Box key={item.id} className="actor">
-															<Avatar alt={item.name} src={item.image} />
+															<Avatar
+																alt={item.name}
+																src={`https://ik.imagekit.io/demo/tr:w-100,h-100/${item.image}`}
+															/>
 															<Typography variant="span" className="name">
 																{item.name}
 															</Typography>
@@ -544,10 +547,9 @@ const MovieDetails = () => {
 														{item.title}
 													</Typography>
 												</Box>
-												<CardMedia
-													sx={{ zIndex: 0 }}
-													component="img"
-													image={item.image}
+												<img
+													sx={{ width: "100%", zIndex: 0 }}
+													src={`https://ik.imagekit.io/demo/tr:w-300,h-400/${item.image}`}
 												/>
 											</Card>
 										);
